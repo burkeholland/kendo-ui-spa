@@ -1,0 +1,48 @@
+﻿<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="KendoUISPA..bc7198f8-a0d5-40f5-a3ce-106e6888ddf3" Version="1.0" Language="en-US" Publisher="Burke Holland" />
+    <DisplayName>Kendo UI SPA (VS 2012)</DisplayName>
+    <Description xml:space="preserve">Adds an ASP.NET MVC4 Single Page Application (SPA) template using Kendo UI Web, Bootstrap 3 and RequireJS</Description>
+    <MoreInfo>http://a.shinynew.me/post/78038782111/a-kendo-ui-asp-net-mvc-spa-template</MoreInfo>
+    <License>license.rtf</License>
+    <GettingStartedGuide />
+    <Icon>__VsixIcon.ico</Icon>
+    <Tags>JavasScript, ASP.NET, Single Page Application, SPA, Kendo UI, RequireJS, Bootstrap</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[11.0]" />
+    <InstallationTarget Version="[11.0]" Id="Microsoft.VisualStudio.VWDExpress" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" Version="4.5" />
+  </Dependencies>
+  <Assets>
+    <Asset d:VsixSubPath="ProjectTemplates\KendoUISpaProjectTemplate.cshtml"
+      Type="Microsoft.VisualStudio.Mvc.Template"
+      d:Source="File"
+      Path="ProjectTemplates\KendoUISpaProjectTemplate.cshtml\KendoUISpaProjectTemplate.cshtml.vstemplate"
+      ProjectType="MVC"
+      Language="C#"
+      ViewEngine="Razor"
+      TemplateId="KendoUISpaProjectTemplate"
+      Title="Kendo UI SPA"
+      Description="An ASP.NET MVC 4 project for a single page application with Kendo UI"
+      Version="4.0"/>
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUISpaProjectTemplate.cshtml\favicon.ico" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUISpaProjectTemplate.cshtml\Global.asax" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUISpaProjectTemplate.cshtml\Global.asax.cs" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUISpaProjectTemplate.cshtml\KendoUISpaProjectTemplate.cshtml.csproj" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUISpaProjectTemplate.cshtml\Web.config" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUISpaProjectTemplate.cshtml\Web.Debug.config" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUISpaProjectTemplate.cshtml\Web.Release.config" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUISpaProjectTemplate.cshtml\__TemplateIcon.ico" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUISpaProjectTemplate.cshtml\App_Start\BundleConfig.cs" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUISpaProjectTemplate.cshtml\App_Start\FilterConfig.cs" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUISpaProjectTemplate.cshtml\App_Start\RouteConfig.cs" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUISpaProjectTemplate.cshtml\App_Start\WebApiConfig.cs" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUISpaProjectTemplate.cshtml\Controllers\HomeController.cs" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUISpaProjectTemplate.cshtml\Properties\AssemblyInfo.cs" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUISpaProjectTemplate.cshtml\Views\Web.config" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUISpaProjectTemplate.cshtml\Views\Home\Index.cshtml" />
+  </Assets>
+</PackageManifest>
