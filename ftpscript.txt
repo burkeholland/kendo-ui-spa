@@ -1,0 +1,10 @@
+﻿open mantle.me
+burkeholland
+Friday03
+!:--- FTP commands below here ---
+lcd "C:\dev\KendoUISPATemplate - 2012\KendoUISpaTemplateVsix\bin\Release"
+cd  downloads/kendo-ui-spa/2012
+binary
+mput "KendoUISpaTemplate.vsix"
+disconnect
+bye

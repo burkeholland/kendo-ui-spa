@@ -17,8 +17,9 @@ namespace $safeprojectname$ {
 
             bundles.Add(
               new StyleBundle("~/Content/css")
-                .Include("~/Content/kendo/2013.3.1119/kendo.common-bootstrap.min.css")
-                .Include("~/Content/kendo/2013.3.1119/kendo.bootstrap.min.css")
+                .Include("~/Content/kendo/2014.1.416/kendo.common-bootstrap.min.css")
+                .Include("~/Content/kendo/2014.1.416/kendo.bootstrap.min.css")
+                .Include("~/Content/kendo/2014.1.416/kendo.bootstrap.mobile.min.css")
                 .Include("~/Content/bootstrap.css")
                 .Include("~/Content/font-awesome.css")
               );

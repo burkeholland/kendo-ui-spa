@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+    <metadata>
+        <id>KendoUIAngular</id>
+        <version>2014.1.416-beta</version>
+        <authors>Burke Holland</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Scaffolds a Angular application using Kendo UI Web, Bootstrap 3 and RequireJS</description>
+        <copyright>2014</copyright>
+        <language>en-US</language>
+        <tags>Kendo UI, Angular</tags>
+        <dependencies>
+            <dependency id="RequireJS" version="2.1.11" />
+            <dependency id="RequireJS.Text" version="2.0.7" />
+            <dependency id="Twitter.Bootstrap" version="3.0.1.1" />
+            <dependency id="FontAwesome" version="4.0.3.1" />
+            <dependency id="KendoUICore" version="2014.1.416" />
+            <dependency id="AngularJS.Core" version="1.3.0-beta6" />
+            <dependency id="AngularJS.Route" version="1.3.0-beta6" />
+        </dependencies>
+    </metadata>
+</package>

@@ -1,16 +1,16 @@
 ﻿<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
     <Name>KendoUISPATemplate</Name>
-    <Description>A boilerplate Kendo UI SPA application</Description>
+    <Description>A boilerplate Kendo UI SPA application using AngularJS</Description>
     <Icon>__TemplateIcon.ico</Icon>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>Web</ProjectSubType>
     <TemplateGroupID>Web</TemplateGroupID>
-    <TemplateID>BurkeHolland.WAP.Cshtml.KendoUISpaApplication.v401</TemplateID>
+    <TemplateID>BurkeHolland.WAP.Cshtml.KendoUIAngularApplication.v401</TemplateID>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>KendoUISPApplication</DefaultName>
+    <DefaultName>KendoUIAngularApplication</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
@@ -24,7 +24,7 @@
       <CustomParameter Name="$languageext$" Value="cs" />
       <CustomParameter Name="$globalclassname$" Value="MvcApplication" />
     </CustomParameters>
-    <Project File="KendoUISpaProjectTemplate.cshtml.csproj" ReplaceParameters="true">
+    <Project File="KendoUIAngularProjectTemplate.cshtml.csproj" ReplaceParameters="true">
       <Folder Name="Properties" TargetFolderName="Properties">
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
       </Folder>
@@ -35,6 +35,40 @@
         <ProjectItem ReplaceParameters="true" TargetFileName="BundleConfig.cs">BundleConfig.cs</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="WebApiConfig.cs">WebApiConfig.cs</ProjectItem>'
       </Folder>
+      <Folder Name="App" TargetFolderName="App">
+        <ProjectItem ReplaceParameters="true" TargetFileName="main.js">main.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="app.js">app.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="main-built.js">main-built.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="routes.js">routes.js</ProjectItem>
+        <Folder Name="controllers" TargetFolderName="controllers">
+          <ProjectItem ReplaceParameters="true" TargetFileName="detailsController.js">detailsController.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="homeController.js">homeController.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="index.js">index.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="listViewController.js">listViewController.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="module.js">module.js</ProjectItem>
+        </Folder>
+        <Folder Name="partials" TargetFolderName="partials">
+          <ProjectItem ReplaceParameters="true" TargetFileName="details.html">details.html</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="home.html">home.html</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="listview.html">listview.html</ProjectItem>
+        </Folder>
+        <Folder Name="services" TargetFolderName="services">
+          <ProjectItem ReplaceParameters="true" TargetFileName="index.js">index.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="module.js">module.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="productsDataSource.js">productsDataSource.js</ProjectItem>
+        </Folder>
+        <Folder Name="vendor" TargetFolderName="vendor">
+          <Folder Name="kendo" TargetFolderName="kendo">
+            <ProjectItem ReplaceParameters="true" TargetFileName="kendo.js">kendo.js</ProjectItem>
+          </Folder>
+          <Folder Name="jquery" TargetFolderName="jquery">
+            <ProjectItem ReplaceParameters="true" TargetFileName="jquery.js">jquery.js</ProjectItem>
+          </Folder>
+          <Folder Name="angular" TargetFolderName="angular">
+            <ProjectItem ReplaceParameters="true" TargetFileName="angular.js">angular.js</ProjectItem>
+          </Folder>
+        </Folder>
+      </Folder>
       <Folder Name="Controllers" TargetFolderName="Controllers">
         <ProjectItem ReplaceParameters="true" TargetFileName="HomeController.cs">HomeController.cs</ProjectItem>
       </Folder>
@@ -44,41 +78,15 @@
           <ProjectItem ReplaceParameters="true" TargetFileName="Index.cshtml">Index.cshtml</ProjectItem>
         </Folder>
       </Folder>
-      <ProjectItem>favicon.ico</ProjectItem>
-      <Folder Name="App" TargetFolderName="App">
-        <Folder Name="views" TargetFolderName="views">
-          <Folder Name="home" TargetFolderName="home">
-            <ProjectItem ReplaceParameters="true" TargetFileName="home.html">home.html</ProjectItem>
-            <ProjectItem ReplaceParameters="true" TargetFileName="home.js">home.js</ProjectItem>
-          </Folder>
-          <Folder Name="details" TargetFolderName="details">
-            <ProjectItem ReplaceParameters="true" TargetFileName="details.html">details.html</ProjectItem>
-            <ProjectItem ReplaceParameters="true" TargetFileName="details.js">details.js</ProjectItem>
-          </Folder>
-          <Folder Name="layout" TargetFolderName="layout">
-            <ProjectItem ReplaceParameters="true" TargetFileName="layout.html">layout.html</ProjectItem>
-            <ProjectItem ReplaceParameters="true" TargetFileName="layout.js">layout.js</ProjectItem>
-          </Folder>
-        </Folder>
-        <Folder Name="vendor" TargetFolderName="vendor">
-          <Folder Name="kendo" TargetFolderName="kendo">
-            <ProjectItem ReplaceParameters="true" TargetFileName="kendo.js">kendo.js</ProjectItem>
-          </Folder>
-        </Folder>
-        <ProjectItem ReplaceParameters="true" TargetFileName="app.js">app.js</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="main.js">main.js</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="main-built.js">main-built.js</ProjectItem>
+      <Folder Name="Content" TargetFolderName="Content">
+        <ProjectItem ReplaceParameters="true" TargetFileName="site.css">site.css</ProjectItem>
       </Folder>
-      <ProjectItem ReplaceParameters="true" TargetFileName="app-build.js">app-build.js</ProjectItem>
+      <ProjectItem>favicon.ico</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.Debug.config">Web.Debug.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.Release.config">Web.Release.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax">Global.asax</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax.cs">Global.asax.cs</ProjectItem>
-      <Folder Name="Scripts" TargetFolderName="Scripts">
-        <ProjectItem ReplaceParameters="true" TargetFileName="debug.js">debug.js</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="pubsub.js">pubsub.js</ProjectItem>
-      </Folder>
     </Project>
   </TemplateContent>
   <WizardExtension>
@@ -111,7 +119,10 @@
       <package id="RequireJS.Text" version="2.0.7" />
       <package id="bootstrap" version="3.0.3" />
       <package id="KendoUICore" version="2014.1.416" />
+      <package id="AngularJS.KendoUI" version="1.0.3" />
       <package id="FontAwesome" version="4.0.3.1" />
+      <package id="AngularJS.Core" version="1.2.16" />
+      <package id="AngularJS.Route" version="1.2.16" />
     </packages>
   </WizardData>
 </VSTemplate>

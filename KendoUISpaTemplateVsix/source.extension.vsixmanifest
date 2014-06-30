@@ -2,7 +2,7 @@
   <Metadata>
     <Identity Id="KendoUISPA..bc7198f8-a0d5-40f5-a3ce-106e6888ddf3" Version="1.0" Language="en-US" Publisher="Burke Holland" />
     <DisplayName>Kendo UI SPA (VS 2012)</DisplayName>
-    <Description xml:space="preserve">Adds an ASP.NET MVC4 Single Page Application (SPA) template using Kendo UI Web, Bootstrap 3 and RequireJS</Description>
+    <Description xml:space="preserve">Adds an ASP.NET MVC4 Single Page Application (SPA) template using Kendo UI Web, Angular, Bootstrap 3 and RequireJS</Description>
     <MoreInfo>http://a.shinynew.me/post/78038782111/a-kendo-ui-asp-net-mvc-spa-template</MoreInfo>
     <License>license.rtf</License>
     <GettingStartedGuide />
@@ -44,5 +44,65 @@
     <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUISpaProjectTemplate.cshtml\Properties\AssemblyInfo.cs" />
     <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUISpaProjectTemplate.cshtml\Views\Web.config" />
     <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUISpaProjectTemplate.cshtml\Views\Home\Index.cshtml" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUISpaProjectTemplate.cshtml\App\views\home\html.html" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUISpaProjectTemplate.cshtml\App\views\home\html.js" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUISpaProjectTemplate.cshtml\App\views\details\details.html" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUISpaProjectTemplate.cshtml\App\views\details\details.js" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUISpaProjectTemplate.cshtml\App\views\layout\layout.js" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUISpaProjectTemplate.cshtml\App\views\layout\layout.html" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUISpaProjectTemplate.cshtml\App\vendor\kendo\kendo.js" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUISpaProjectTemplate.cshtml\App\main.js" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUISpaProjectTemplate.cshtml\App\app.js" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUISpaProjectTemplate.cshtml\App\main-built.js" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUISpaProjectTemplate.cshtml\app-build.js" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUISpaProjectTemplate.cshtml\Scripts\debug.js" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUISpaProjectTemplate.cshtml\Scripts\pubsub.js" />
+
+    <Asset d:VsixSubPath="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml"
+      Type="Microsoft.VisualStudio.Mvc.Template"
+      d:Source="File"
+      Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\KendoUIAngularProjectTemplate.cshtml.vstemplate"
+      ProjectType="MVC"
+      Language="C#"
+      ViewEngine="Razor"
+      TemplateId="KendoUIAngularProjectTemplate"
+      Title="Kendo UI SPA with Angular"
+      Description="An ASP.NET MVC 4 project for a single page application with Kendo UI and AngularJS"
+      Version="4.0"/>
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\favicon.ico" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\Global.asax" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\Global.asax.cs" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\KendoUIAngularProjectTemplate.cshtml.csproj" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\Web.config" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\Web.Debug.config" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\Web.Release.config" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\__TemplateIcon.ico" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\App_Start\BundleConfig.cs" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\App_Start\FilterConfig.cs" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\App_Start\RouteConfig.cs" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\App_Start\WebApiConfig.cs" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\Controllers\HomeController.cs" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\Properties\AssemblyInfo.cs" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\Views\Web.config" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\Views\Home\Index.cshtml" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\App\main.js" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\App\main-built.js" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\App\app.js" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\App\routes.js" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\App\vendor\kendo\kendo.js" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\App\vendor\jquery\jquery.js" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\App\vendor\angular\angular.js" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\App\controllers\detailsController.js" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\App\controllers\homeController.js" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\App\controllers\index.js" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\App\controllers\listViewController.js" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\App\controllers\module.js" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\App\partials\details.html" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\App\partials\home.html" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\App\partials\listview.html" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\App\services\module.js" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\App\services\productsDataSource.js" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\App\services\index.js" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\KendoUIAngularProjectTemplate.cshtml\Content\site.css" />
   </Assets>
 </PackageManifest>

@@ -1,0 +1,5 @@
+define([
+    './productsDataSource'
+], function (productDataSource) {
+
+});

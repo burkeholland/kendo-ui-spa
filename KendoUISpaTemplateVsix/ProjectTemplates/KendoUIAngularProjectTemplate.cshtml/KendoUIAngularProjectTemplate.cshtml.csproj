@@ -124,19 +124,25 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="App\views\home\home.html" />
-    <Content Include="App\views\home\home.js" />
-    <Content Include="App\views\details\details.html" />
-    <Content Include="App\views\details\details.js" />
-    <Content Include="App\views\layout\layout.html" />
-    <Content Include="App\views\layout\layout.js" />
-    <Content Include="App\vendor\kendo\kendo.js" />
+    <Content Include="App\main.js" />
     <Content Include="App\app.js" />
     <Content Include="App\main-built.js" />
-    <Content Include="App\main.js" />
-    <Content Include="app-build.js" />
-    <Content Include="Scripts\debug.js" />
-    <Content Include="Scripts\pubsub.js" />
+    <Content Include="App\routes.js" />
+    <Content Include="App\vendor\kendo\kendo.js" />
+    <Content Include="App\vendor\jquery\jquery.js" />
+    <Content Include="App\vendor\angular\angular.js" />
+    <Content Include="App\controllers\detailsController.js" />
+    <Content Include="App\controllers\homeController.js" />
+    <Content Include="App\controllers\index.js" />
+    <Content Include="App\controllers\listViewController.js" />
+    <Content Include="App\controllers\module.js" />
+    <Content Include="App\partials\details.html" />
+    <Content Include="App\partials\home.html" />
+    <Content Include="App\partials\listview.html" />
+    <Content Include="App\services\index.js" />
+    <Content Include="App\services\module.js" />
+    <Content Include="App\services\productsDataSource.js" />
+    <Content Include="Content\site.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
